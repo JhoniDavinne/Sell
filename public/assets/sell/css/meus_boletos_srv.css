@@ -1,0 +1,758 @@
+@media print
+{
+    .printSection
+    {
+        display:block;
+    }
+    .noPrintSection
+    {
+        display:none;
+    }
+}
+
+@media screen
+{
+    .printSection
+    {
+        display:none;
+    }
+    .noPrintSection
+    {
+        display:block;
+    }
+ 
+}
+
+body
+{
+margin:0px;
+padding:0px;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size:15px !important;
+background-color: #ffffff !important; color: #000000 !important;
+}
+
+.reloadCont
+{
+transition-duration:1s;
+transition-property:transform;
+}
+.reloadCont:hover
+{
+transform:rotate(360deg);
+-webkit-transform:rotate(360deg);
+-moz-transform:rotate(360deg);
+-ms-transform:rotate(360deg);
+}
+.l2ErrFB
+{
+color:black;
+font-size:20px;
+display:none;
+background-color:white;
+padding:2px;
+position:absolute;
+top:0px;
+left:0px;
+z-index:13;
+background-color:white;
+}
+
+.l2UnBar
+{
+position:absolute;
+left:0px;
+bottom:0px;
+height:1px;
+background-color: #00b7ff;
+width:100%;
+}
+
+.l2CloseGlass
+{
+position:absolute;
+top:0px;
+right:0px;
+width:15px;
+height:15px;
+z-index:8;
+cursor:pointer;
+background-color:#496266;
+opacity:0;
+filter:alpha(opacity=0);
+}
+.l2CloseGlass2
+{
+position:absolute;
+top:-2px;
+right:-2px;
+width:15px;
+height:15px;
+z-index:8;
+cursor:pointer;
+}
+
+
+.l2Glass
+{
+position:absolute;
+left:0px;
+top:0px;
+z-index:7;
+opacity:0;
+height: 30%;
+filter:alpha(opacity=0);
+background-color: #5f3f02;
+border-radius:50px;
+box-shadow:0px 0px 25px #333 inset;
+}
+
+.l2GlassPic
+{
+width:100%;
+height:100%;
+position:absolute;
+left:0px;
+top:0px;
+z-index:2;
+}
+
+.l2Blur
+{
+top:-25px;
+left:-25px;
+width:150px;
+height:150px;
+position:absolute;
+z-index:5;
+display:none;
+}
+
+.l2Loader
+{
+width:52px;
+height:50px;
+display:none;
+position:absolute;
+top:0px;
+left:0px;
+z-index:12;
+background-color:white;
+padding:30px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+border-radius:100px;
+}
+
+.l2Locker
+{
+width:100%;
+height:100%;
+background-color:#476265;
+opacity:0;
+filter:alpha(opacity=0);
+position:absolute;
+z-index:11;
+left:0px;
+top:0px;
+}
+
+.l2Locker2
+{
+width:100%;
+height:100%;
+position:absolute;
+z-index:6;
+left:0px;
+top:0px;
+background-color:#476265;
+opacity:0;
+filter:alpha(opacity=0);
+}
+
+img
+{
+border:0px;
+}
+
+.l2PreLoad
+{
+display:none;
+}
+
+.l2Menu
+{
+margin:0 auto;
+margin-top:25px;
+margin-bottom:100px;
+width:1150px;
+height:165px;
+position:relative;
+border:0px solid red;
+padding:50px;
+}
+
+.l2Sols
+{
+width:100px;
+height:100px;
+float:left;
+margin-right:50px;
+position:relative;
+cursor:pointer;
+}
+
+.l2Labels
+{
+position:absolute;
+left:0px;
+top:105px;
+width:100px;
+height:50px;
+}
+
+.l2Overlay
+{
+position:absolute;
+left:0px;
+top:0px;
+width:100px;
+height:100px;
+}
+
+.l2SolIcon100
+{
+position:absolute;
+left:-25px;
+top:-25px;
+width:150px;
+height:150px;
+}
+
+.l2FooterCont
+{
+width:1000px;
+position:absolute;
+top:25px;
+left:0px;
+}
+
+.l2Footer
+{
+color:#a0b1a6;
+padding-bottom:15px;
+overflow:hidden;
+border-bottom:1px solid #a0b1a6;
+}
+
+.l2FooterSign
+{
+font-size:18px;
+color:#a0b1a6;
+line-height:50px;
+height:50px;
+text-align:center;
+}
+
+.l2Welcome
+{
+font-size:30px;
+margin:0 auto;
+text-align:center;
+overflow:hidden;
+position:relative;
+}
+
+.l2Welcome span
+{
+display:block;
+font-size:25px;
+}
+
+.l2Left
+{
+float:left;
+}
+
+.l2Center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.l2AccessBt
+{
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+background-color:#7e877f;
+height:30px;
+width:50px;
+line-height:30px;
+margin-top:10px;
+color:white;
+font-size:10px;
+text-align:center;
+cursor:pointer;
+}
+
+.l2AccessBt:hover
+{
+background-color:#486265;
+}
+
+.l2Right
+{
+float:right;
+}
+
+
+.l2RightM
+{
+float:right;
+margin-right:15px;
+}
+
+.l2RightM2
+{
+float:right;
+margin-right:30px;
+}
+
+.botao1{width:110px; height:30px; border: 0px; background-position: 0px 0px; margin-top:10px;}
+.botao1:hover, .botao1:focus {background-position: 0px 30px;}
+
+.icon-revenda{background-image: url("http://www.ifractal.com.br/img/icons_menu/revenda.png");}
+.icon-home{background-image:url("http://www.ifractal.com.br/img/icons_menu/home.png"); cursor:pointer;}
+
+.l2Top
+{
+background-color:#a0b1a6;
+height:50px;
+position:relative;
+}
+
+.l2InnerTop
+{
+width:1000px;
+overflow:hidden;
+margin:0 auto;
+}
+
+.l2FormAccess
+{
+width:75px;
+height:50px;
+background-image:url('/assets/sell/images/bt_access.png');
+background-position:left top;
+background-repeat:no-repeat;
+cursor:pointer;
+}
+
+.l2FormAccess:hover
+{
+background-position:left -50px;
+}
+
+.iInputMP2
+{
+outline:none; font-size:12px; padding:2px; position:relative; z-index:6; padding-left:10px; padding-right:10px; background-color:transparent;  border:0px solid black; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.iInputMP3
+{
+outline:none; font-size:15px; padding:5px; padding-left:12px; padding-right:12px; position:relative; z-index:6; background-color:transparent;  border:0px solid black; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";width:500px;
+}
+
+.iMustFillPlaceholderV3
+{
+position:relative; background-color:white; border:1px solid #9fb2a9; border-radius:3px;overflow:hidden; -moz-border-radius:3px; -webkit-border-radius:3px;
+}
+
+
+.iMustFillPlaceholderV3 label
+{
+position:absolute; left:10px; top:3px; font-size:15px; font-style:italic; z-index:5; color:#999; font-size:12px;
+}
+
+
+.iMustFillMP2
+{
+color:blue;
+position:absolute;
+right:5px;
+padding:5px;
+top:3px;
+font-size:9px;
+overflow:hidden;
+}
+
+#homeCliente{font-weight:bold; color:#FFF; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";padding-top:10px;padding-bottom:10px;}
+#homeCliente>div
+{
+width:95%;
+overflow:hidden;
+margin:0 auto;
+}
+.icon_top_lit
+{
+background-position:0px -60px;
+}
+
+.icon_top
+{
+height:30px;
+width:110px;
+background-position:0px 0px;
+background-repeat:no-repeat;
+cursor:pointer;
+}
+.logoENome
+{
+width:95%;
+margin:0px auto;
+overflow:hidden;
+}
+
+.icon_home
+{
+background-image:url('img/icons_menu/home.png');
+}
+
+.subContLightBlue
+{
+width:95%;
+margin:0px auto;
+background-color:rgb(235, 245, 237);
+}
+
+.icon_star
+{
+background-image:url('img/icons_menu/stars.png');
+}
+.icon_top:hover
+{
+background-position:0px -60px;
+}
+
+.fRight
+{
+float:right;
+}
+.fLeft
+{
+float:left;
+}
+#img{float:left; background-color:#FFF; padding-top:50px;padding-bottom:50px;}
+#font{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; width:470px; background-color:#FFF;font-size:28px; color:#496265;float:right;text-align:right;padding-top:50px; padding-bottom:50px;}
+
+/* .titleT
+{
+background-color:#496266;
+}*/
+
+.firstRow td
+{
+color:white;
+text-align:center;
+border-right:1px solid rgb(235, 245, 237);
+background-color:#496266;
+}
+
+.titleT td
+{
+padding-top:15px;
+padding-bottom:15px;
+padding-left:5px;
+padding-right:5px;
+}
+
+.srvMRowsS
+{
+background-color:white;
+}
+.srvMRows
+{
+background-color:#f9f9f9;
+}
+
+.multiplePrint
+{
+font-size:11px;
+color:black;
+text-align:center;
+opacity:0;
+position:absolute;
+right:15px;
+top:50px;
+cursor:pointer;
+}
+
+.instMPrint
+{
+color:black;
+font-size:13px;
+padding:2px;
+}
+
+.srvMBaseRows td
+{
+padding-left:5px;
+padding-right:5px;
+font-size:13px;
+color:#496266;
+border-right:1px solid rgb(235, 245, 237);
+cursor:pointer;
+}
+
+.locker
+{
+position:fixed;
+width:100%;
+left:0px;
+top:0px;
+height:100%;
+z-index:5;
+background-color:#496266;
+opacity:0.6;
+filter:alpha(opacity=60);
+}
+.formMailSMS
+{
+position:relative;
+padding:50px;
+z-index:3;
+color:white;
+padding-top:35px;
+}
+
+.msgWhatIsIt
+{
+position:absolute;
+bottom:2px;
+left:0px;
+width:100%;
+text-align:center;
+color:#496266;
+font-size:11px;
+}
+
+.label2
+{
+font-size:20px !important;
+top:4px !important;
+}
+.gifContL
+{
+position:absolute;
+border-radius:100px;
+left:0px;
+top:0px;
+display:none;
+background-color:white;
+z-index:13; 
+}
+.hContM
+{
+width:100%;
+height:100%;
+background-color:#496266;
+box-shadow:0px 0px 25px black inset;
+opacity:0.7;
+border-radius:50px;
+filter:alpha(opacity=70);
+position:absolute;
+left:0px;
+top:0px;
+z-index:1;
+}
+
+.iMustFillMP3
+{
+color:blue;
+position:absolute;
+right:0px;
+top:10px;
+font-size:9px;
+overflow:hidden;
+}
+.hCont
+{
+position:fixed;
+z-index:13;
+display:none;
+overflow:hidden;
+}
+.contUpBts
+{
+padding:50px; overflow:hidden;position:relative;z-index:2;color:white;
+padding-bottom:25px;
+}
+.bHtml
+{
+background-color:white;
+position:relative;
+z-index:2;
+overflow:auto;
+color:black;
+display:none;
+}
+
+.cPBts
+{
+padding:5px;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size:17px;
+cursor:pointer;
+}
+
+.cBt
+{
+position:absolute;
+right:0px;
+top:0px;
+color:black;
+font-size:15px;
+font-weight:bold;
+cursor:pointer;
+z-index:2;
+}
+
+.botao_enviar_imprimir
+{
+width:133px;
+height:30px;
+background-position:left top;
+background-repeat:no-repeat;
+cursor:pointer;
+}
+
+.botao_imprimir
+{
+background-image:url('../imagens/botao-imprimir.png');
+}
+
+.botao_imprimir:hover, .botao_enviar2:hover
+{
+background-position:left -30px;
+}
+
+.greySiinEntrance
+{
+position:absolute;
+right:0px;
+bottom:57px;
+}
+.btInGlassMsg
+{
+width:75px;
+height:25px;
+background-repeat:no-repeat;
+background-position:left top;
+cursor:pointer;
+}
+
+.btInGlassMsg:hover
+{
+background-position:left -25px;
+}
+
+.pickerHolder
+{
+position:absolute;
+z-index:20;
+opacity:0;
+filter:alpha(opacity=0);
+}
+
+.extraClose
+{
+color:white;
+font-weight:bold;
+cursor:pointer;
+width:100px;
+height:30px;
+background:url('../imagens/botao-fechar.png') no-repeat left top;
+
+}
+.extraClose:hover
+{
+background-position:left -30px
+}
+
+.no-select
+{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+@keyframes fade {
+    from { background-color: transparent; }
+    50% { background-color: red; }
+    to { opacity: transparent; }
+}
+
+@-webkit-keyframes fade {
+    from { background-color: transparent; }
+    50% { background-color: red; }
+    to { background-color: transparent; }
+}
+
+.blink {
+    animation:fade 1s infinite;
+    -webkit-animation:fade 1s infinite;
+}
+.alert-captcha
+{
+padding:15px;position:relative;left:-15px;
+}
+
+
+.hero-section {
+    background-color: #e36c08;
+    background-size: cover;
+    height: 10vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hero-section .hero-section-text {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+/* The alert message box */
+.alert {
+    background-color: #57627b; /* Red */
+    color: white;
+    text-align: center;
+
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
